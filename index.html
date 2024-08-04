@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ankur Gupta - Portfolio</title>
+  <link rel="stylesheet" href="styles/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+  <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Ankur Gupta</h1>
+      <p>Aspiring Software Developer & Tech Enthusiast</p>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="about" class="fade-in">
+      <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+          <img src="assets/images/profile.jpg" alt="Ankur Gupta" class="profile-img">
+          <div class="about-text">
+            <p>Welcome! I am a 4th year college student passionate about software development and technology...</p>
+            <p>Skills: C, C++, HTML, CSS, JavaScript, Python, React, Node.js, and more...</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="slide-up">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="project-grid">
+          <div class="project">
+            <img src="assets/images/project1.jpg" alt="Project 1">
+            <h3>Day-Night Classifier</h3>
+            <p>Description: This project uses Open-CV library is classify images based on their RGB values into Day and Night. No machine learning is used.</p>
+            <p>Technologies: Python, Numpy, Pandas, Open-CV</p>
+            <a href="https://github.com/ankurgupta007/Image_Processing_Project" class="button" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="assets/images/project2.jpg" alt="Project 2">
+            <h3>FootBall World-Cup Winner Prediction</h3>
+            <p>Description: This project aims to predict the results of the QATAR 2022 World Cup from the international matches held since the 90s, the qualifications of the teams in their last matches, and the potential of each team.</p>
+            <p>Technologies: Python, Numpy, Sklearn, TensorFlow, Seaborn</p>
+            <a href="https://github.com/ankurgupta007/World_Cup_Winner_Prediction" class="button" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="assets/images/project3.jpg" alt="Project 3">
+            <h3>Index creator</h3>
+            <p>Description:<br> 1)Indexed the file directory (containing pdfs) using fscrawler <br>
+                2)Integrated the indices to elastic search <br>
+                3)Queried the index using kibana    </p>
+            <p>Technologies: Elastic-Search, Kibana, FSCrawler</p>
+            <a href="https://youtu.be/KCFn4TbKiT0" class="button" target="_blank">View Project</a>
+          </div>
+          <div class="project">
+            <img src="assets/images/project4.jpg" alt="Project 4">
+            <h3>Conversion from single cycle to combined power generation</h3>
+            <p>Description: This project uses Managed Guardian Service to create an interface for United Nations to incentivize the organisation which convert single cycle power generation to combined cycle power generation plants.</p>
+            <p>Technologies: MGS, Excel, JavaScript</p>
+            <a href="https://devpost.com/software/conversion-from-single-cycle-to-combined-power-generation" class="button" target="_blank">View Project</a>
+          </div>
+          <!-- Add more project divs as needed -->
+        </div>
+      </div>
+    </section>
+
+    <section id="resume" class="zoom-in">
+      <div class="container">
+        <h2>Resume</h2>
+        <a href="assets/Ankur_Gupta_Resume.pdf" class="button" target="_blank">Download My Resume</a>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+      <div class="container">
+        <h2>Contact</h2>
+        <form>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+          <label for="message">Message:</label>
+          <textarea id="message" name="message" required></textarea>
+          <button type="submit" class="button">Send</button>
+        </form>
+        <p>Email: <a href="mailto:ankurgupta9d@gmail.com">ankurgupta9d@gmail.com</a></p>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2024 Ankur Gupta. All rights reserved.</p>
+      <div>
+        <a href="https://linkedin.com/in/ankur-gpt" target="_blank"><i class="fab fa-linkedin"></i></a>
+        <a href="https://github.com/ankurgupta007" target="_blank"><i class="fab fa-github"></i></a>
+        <a href="https://twitter.com/AnkurGu74298963" target="_blank"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="scripts/script.js"></script>
+</body>
+</html>
