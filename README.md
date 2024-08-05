@@ -1,2 +1,2 @@
 # portfolio
-This website have all of my project projects
+This website have all of my personal projects
